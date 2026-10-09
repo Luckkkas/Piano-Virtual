@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#10131c">
+    <meta name="description" content="Toque piano online usando o teclado do computador ou clicando nas teclas.">
+    <title>PianoWeb — Piano virtual</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+    <main class="wrapper">
+        <header class="piano-header">
+            <div class="brand">
+                <span class="brand-icon" aria-hidden="true">♫</span>
+                <div>
+                    <p class="eyebrow">MUSIC STUDIO</p>
+                    <h1>Piano<span>Web</span></h1>
+                </div>
+            </div>
+            <div class="controls">
+                <label class="volume-control" for="volume">
+                    <span class="control-label"><span aria-hidden="true">🔊</span> Volume</span>
+                    <input id="volume" type="range" min="0" max="1" value="0.5" step="0.05">
+                </label>
+                <label class="keys-control" for="show-keys">
+                    <span class="control-label">Mostrar teclas</span>
+                    <input id="show-keys" type="checkbox" checked>
+                    <span class="switch" aria-hidden="true"></span>
+                </label>
+            </div>
+        </header>
+
+        <section class="instrument" aria-label="Piano virtual">
+            <div class="instrument-top">
+                <span class="live-dot"></span>
+                <span>VIRTUAL PIANO</span>
+                <span class="keyboard-hint">Use as teclas do seu teclado para tocar</span>
+            </div>
+            <ul class="piano-keys" aria-label="Teclas do piano">
+                <li class="key white" data-key="a" role="button" tabindex="0" aria-label="Nota A, tecla branca"><span>A</span></li>
+                <li class="key black" data-key="w" role="button" tabindex="0" aria-label="Nota W, tecla preta"><span>W</span></li>
+                <li class="key white" data-key="s" role="button" tabindex="0" aria-label="Nota S, tecla branca"><span>S</span></li>
+                <li class="key black" data-key="e" role="button" tabindex="0" aria-label="Nota E, tecla preta"><span>E</span></li>
+                <li class="key white" data-key="d" role="button" tabindex="0" aria-label="Nota D, tecla branca"><span>D</span></li>
+                <li class="key white" data-key="f" role="button" tabindex="0" aria-label="Nota F, tecla branca"><span>F</span></li>
+                <li class="key black" data-key="t" role="button" tabindex="0" aria-label="Nota T, tecla preta"><span>T</span></li>
+                <li class="key white" data-key="g" role="button" tabindex="0" aria-label="Nota G, tecla branca"><span>G</span></li>
+                <li class="key black" data-key="y" role="button" tabindex="0" aria-label="Nota Y, tecla preta"><span>Y</span></li>
+                <li class="key white" data-key="h" role="button" tabindex="0" aria-label="Nota H, tecla branca"><span>H</span></li>
+                <li class="key black" data-key="u" role="button" tabindex="0" aria-label="Nota U, tecla preta"><span>U</span></li>
+                <li class="key white" data-key="j" role="button" tabindex="0" aria-label="Nota J, tecla branca"><span>J</span></li>
+                <li class="key white" data-key="k" role="button" tabindex="0" aria-label="Nota K, tecla branca"><span>K</span></li>
+                <li class="key black" data-key="o" role="button" tabindex="0" aria-label="Nota O, tecla preta"><span>O</span></li>
+                <li class="key white" data-key="l" role="button" tabindex="0" aria-label="Nota L, tecla branca"><span>L</span></li>
+                <li class="key black" data-key="p" role="button" tabindex="0" aria-label="Nota P, tecla preta"><span>P</span></li>
+            </ul>
+        </section>
+        <footer class="footer">
+            <span>Feito para explorar sua criatividade.</span>
+            <span class="status"><span class="status-dot"></span> Pronto para tocar</span>
+        </footer>
+    </main>
+</body>
+</html>
