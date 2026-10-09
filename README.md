@@ -1,4 +1,4 @@
-# 🎹 PianoWeb
+# 🎹 Piano-Virtual
 
 Piano virtual feito com **HTML, CSS e JavaScript**, para tocar notas pelo mouse, tela sensível ao toque ou teclado do computador.
 
@@ -21,7 +21,7 @@ Piano virtual feito com **HTML, CSS e JavaScript**, para tocar notas pelo mouse,
 ## 📁 Estrutura
 
 ```text
-Piano-Web/
+Piano-Virtual/
 ├── index.html
 ├── README.md
 └── assets/
